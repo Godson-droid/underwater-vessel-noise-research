@@ -1,0 +1,8 @@
+{
+ "kind": "diverse",
+ "generation_seed": 20382116,
+ "n": 80000,
+ "label_mean": 0.25622236728668213,
+ "zero_frac": 0.200125,
+ "changes": "share prior flattened (zero 0.20; quartiles over (0,.05)/(.05,.2)/(.2,.5)/(.5,.98)); colour clip +-10 (sigma 2.2); gain envelope +-7, iid +-2.5, step p=0.4 (2..5 dB); warp U(0.4,2.5); BG modes clean/busy/mixture 0.25/0.30/0.45; bg jitter clip +-4; drift env +-4, colour +-3.5; ambient p=0.40"
+}

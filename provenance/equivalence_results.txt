@@ -1,0 +1,106 @@
+EQUIVALENCE TEST - historical minute_band_power vs clean reimplementation
+numpy 2.5.5, scipy 1.18.1
+Historical function loaded by AST extraction of the single function
+from code/build_passage_pool.py (module never imported; no module-level
+code, reassembly or main() executed). Signals are synthetic, in memory.
+
+signal: silence  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 0.000e+00
+  mean abs deviation : 0.000e+00
+  max abs dev / signal peak band power: 0.000e+00
+  band 0 : max abs dev 0.000e+00
+  band 24: max abs dev 0.000e+00
+
+signal: tone_band0_centre  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 8.771e-15
+  mean abs deviation : 3.508e-16
+  max abs dev / signal peak band power: 1.754e-14
+  band 0 : max abs dev 8.771e-15
+  band 24: max abs dev 1.620e-30
+
+signal: tone_band12_centre  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 8.771e-15
+  mean abs deviation : 3.508e-16
+  max abs dev / signal peak band power: 1.754e-14
+  band 0 : max abs dev 5.436e-28
+  band 24: max abs dev 2.316e-30
+
+signal: tone_band24_centre  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 8.549e-15
+  mean abs deviation : 3.419e-16
+  max abs dev / signal peak band power: 1.710e-14
+  band 0 : max abs dev 1.070e-31
+  band 24: max abs dev 8.549e-15
+
+signal: tone_band_edge_10_11  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 5.274e-15
+  mean abs deviation : 3.531e-16
+  max abs dev / signal peak band power: 1.771e-14
+  band 0 : max abs dev 2.317e-27
+  band 24: max abs dev 1.087e-30
+
+signal: tone_below_band0_10Hz  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 1.109e-32
+  mean abs deviation : 2.060e-33
+  max abs dev / signal peak band power: 4.677e-06
+  band 0 : max abs dev 3.637e-34
+  band 24: max abs dev 4.394e-33
+
+signal: white_noise_seed20261118  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 1.985e-15
+  mean abs deviation : 3.861e-16
+  max abs dev / signal peak band power: 1.722e-14
+  band 0 : max abs dev 8.023e-18
+  band 24: max abs dev 1.985e-15
+
+signal: chirp_20_to_12000Hz  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 1.207e-15
+  mean abs deviation : 2.581e-16
+  max abs dev / signal peak band power: 1.740e-14
+  band 0 : max abs dev 8.470e-22
+  band 24: max abs dev 1.207e-15
+
+signal: mix_band0_band24_noise  (fs=32000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 4.496e-15
+  mean abs deviation : 3.748e-16
+  max abs dev / signal peak band power: 1.762e-14
+  band 0 : max abs dev 4.191e-15
+  band 24: max abs dev 4.496e-15
+
+signal: white_noise_2minutes  (fs=32000, minutes=2)
+  shape (2, 25) == (2, 25); NaN positions: historical 0, clean 0, mismatched 0
+  max abs deviation  : 2.082e-15
+  mean abs deviation : 3.880e-16
+  max abs dev / signal peak band power: 1.812e-14
+  band 0 : max abs dev 7.373e-18
+  band 24: max abs dev 2.082e-15
+
+signal: fs16000_white_noise  (fs=16000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 1, clean 1, mismatched 0
+  max abs deviation  : 1.832e-15
+  mean abs deviation : 3.699e-16
+  max abs dev / signal peak band power: 1.008e-14
+  band 0 : max abs dev 8.023e-18
+  band 24: both NaN (band above Nyquist)
+
+signal: fs16000_tone_band24_centre  (fs=16000, minutes=1)
+  shape (1, 25) == (1, 25); NaN positions: historical 1, clean 1, mismatched 0
+  max abs deviation  : 1.157e-28
+  mean abs deviation : 1.174e-29
+  max abs dev / signal peak band power: 1.750e-10
+  band 0 : max abs dev 1.214e-31
+  band 24: both NaN (band above Nyquist)
+
+SUMMARY
+  worst max abs deviation across all signals : 8.771e-15
+  worst mean abs deviation across all signals: 3.880e-16
+  total NaN-position mismatches              : 0

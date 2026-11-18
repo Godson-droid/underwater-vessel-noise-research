@@ -1,0 +1,24 @@
+{
+ "tag": "p7char_full",
+ "generation_seeds": {
+  "train": 20358119,
+  "trainB": 20358120
+ },
+ "p_transplant": 0.6,
+ "sets": {
+  "train": {
+   "n": 80000,
+   "n_transplant": 42433,
+   "n_draw": 80000,
+   "label_mean": 0.18096919357776642,
+   "zero_frac": 0.249875
+  },
+  "trainB": {
+   "n": 40000,
+   "n_transplant": 20807,
+   "n_draw": 40000,
+   "label_mean": 0.18252629041671753,
+   "zero_frac": 0.2539
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "tag": "bandext",
+ "mode": "full",
+ "seed": 20261116,
+ "pools": {
+  "train": 65838,
+  "trainA": 32919,
+  "trainB": 32919,
+  "val_random": 5724,
+  "val_site": 3459,
+  "val_period": 12632,
+  "val_long": 5724,
+  "oracle": 5724
+ },
+ "sets": {
+  "train": {
+   "label_mean": 0.18232844769954681,
+   "zero_frac": 0.250525,
+   "modes": {
+    "busy": 0.301175,
+    "clean": 0.3992875,
+    "mixture": 0.2995375
+   },
+   "orders": {
+    "drop-first": 0.4997,
+    "mix-first": 0.5003
+   }
+  },
+  "trainA": {
+   "label_mean": 0.18174490332603455,
+   "zero_frac": 0.250975,
+   "modes": {
+    "busy": 0.294675,
+    "clean": 0.402075,
+    "mixture": 0.30325
+   },
+   "orders": {
+    "drop-first": 0.50505,
+    "mix-first": 0.49495
+   }
+  },
+  "trainB": {
+   "label_mean": 0.184264674782753,
+   "zero_frac": 0.249875,
+   "modes": {
+    "busy": 0.29935,
+    "clean": 0.397425,
+    "mixture": 0.303225
+   },
+   "orders": {
+    "drop-first": 0.5002,
+    "mix-first": 0.4998
+   }
+  },
+  "val_random": {
+   "label_mean": 0.1848723143339157,
+   "zero_frac": 0.25016666666666665,
+   "modes": {
+    "busy": 0.31016666666666665,
+    "clean": 0.395,
+    "mixture": 0.29483333333333334
+   },
+   "orders": {
+    "drop-first": 0.5018333333333334,
+    "mix-first": 0.49816666666666665
+   }
+  },
+  "val_site": {
+   "label_mean": 0.17376554012298584,
+   "zero_frac": 0.25533333333333336,
+   "modes": {
+    "busy": 0.293,
+    "clean": 0.4135,
+    "mixture": 0.2935
+   },
+   "orders": {
+    "drop-first": 0.504,
+    "mix-first": 0.496
+   }
+  },
+  "val_period": {
+   "label_mean": 0.1917673796415329,
+   "zero_frac": 0.24983333333333332,
+   "modes": {
+    "busy": 0.3085,
+    "clean": 0.3965,
+    "mixture": 0.295
+   },
+   "orders": {
+    "drop-first": 0.5068333333333334,
+    "mix-first": 0.49316666666666664
+   }
+  },
+  "val_long": {
+   "label_mean": 0.2507341206073761,
+   "zero_frac": 0.0,
+   "modes": {
+    "busy": 0.30466666666666664,
+    "clean": 0.394,
+    "mixture": 0.30133333333333334
+   },
+   "orders": {
+    "drop-first": 0.496,
+    "mix-first": 0.504
+   }
+  },
+  "oracle": {
+   "label_mean": 0.18175853788852692,
+   "zero_frac": 0.245,
+   "modes": {
+    "busy": 0.313,
+    "clean": 0.3865,
+    "mixture": 0.3005
+   },
+   "orders": {
+    "drop-first": 0.49,
+    "mix-first": 0.51
+   }
+  }
+ },
+ "generation": "identical RNG continuation as simulate_v3"
+}

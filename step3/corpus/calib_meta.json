@@ -1,0 +1,14 @@
+{
+ "set": "calib",
+ "n": 1500,
+ "label_mean": 0.3445418954990315,
+ "label_zero_frac": 0.246,
+ "kinds": {
+  "ambient": 355,
+  "none": 368,
+  "vessel": 777
+ },
+ "bg_roles": {
+  "fit": 1500
+ }
+}

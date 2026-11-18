@@ -1,0 +1,52 @@
+{
+ "tag": "bandext_maskfix",
+ "base_tag": "bandext",
+ "cell": "maskfix",
+ "mode": "full",
+ "seed": 20261116,
+ "generation_seed": 20355124,
+ "pools": {
+  "train": 65838,
+  "trainA": 32919,
+  "trainB": 32919,
+  "val_random": 5724,
+  "val_site": 3459,
+  "val_period": 12632,
+  "val_long": 5724,
+  "oracle": 5724
+ },
+ "sets": {
+  "train": {
+   "label_mean": 0.18221159279346466,
+   "zero_frac": 0.2462125
+  },
+  "trainA": {
+   "label_mean": 0.18170872330665588,
+   "zero_frac": 0.248775
+  },
+  "trainB": {
+   "label_mean": 0.18100647628307343,
+   "zero_frac": 0.2514
+  },
+  "val_random": {
+   "label_mean": 0.1836431622505188,
+   "zero_frac": 0.2455
+  },
+  "val_site": {
+   "label_mean": 0.1729365587234497,
+   "zero_frac": 0.24683333333333332
+  },
+  "val_period": {
+   "label_mean": 0.18818123638629913,
+   "zero_frac": 0.24816666666666667
+  },
+  "val_long": {
+   "label_mean": 0.24964945018291473,
+   "zero_frac": 0.0
+  },
+  "oracle": {
+   "label_mean": 0.18269217014312744,
+   "zero_frac": 0.2355
+  }
+ }
+}

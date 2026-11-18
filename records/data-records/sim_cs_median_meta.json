@@ -1,0 +1,97 @@
+{
+ "tag": "median",
+ "mode": "screen",
+ "seed": 20261116,
+ "pools": {
+  "train": 65838,
+  "trainA": 32919,
+  "trainB": 32919,
+  "val_random": 5724,
+  "val_site": 3459,
+  "val_period": 12632,
+  "val_long": 5724,
+  "oracle": 5724
+ },
+ "sets": {
+  "trainA": {
+   "label_mean": 0.18028078973293304,
+   "zero_frac": 0.250475,
+   "modes": {
+    "busy": 0.30205,
+    "clean": 0.40035,
+    "mixture": 0.2976
+   },
+   "orders": {
+    "drop-first": 0.503225,
+    "mix-first": 0.496775
+   }
+  },
+  "val_random": {
+   "label_mean": 0.1813245415687561,
+   "zero_frac": 0.25833333333333336,
+   "modes": {
+    "busy": 0.2981666666666667,
+    "clean": 0.39366666666666666,
+    "mixture": 0.30816666666666664
+   },
+   "orders": {
+    "drop-first": 0.49616666666666664,
+    "mix-first": 0.5038333333333334
+   }
+  },
+  "val_site": {
+   "label_mean": 0.1750676929950714,
+   "zero_frac": 0.24783333333333332,
+   "modes": {
+    "busy": 0.30083333333333334,
+    "clean": 0.3983333333333333,
+    "mixture": 0.30083333333333334
+   },
+   "orders": {
+    "drop-first": 0.49833333333333335,
+    "mix-first": 0.5016666666666667
+   }
+  },
+  "val_period": {
+   "label_mean": 0.1820000410079956,
+   "zero_frac": 0.25033333333333335,
+   "modes": {
+    "busy": 0.30366666666666664,
+    "clean": 0.39866666666666667,
+    "mixture": 0.2976666666666667
+   },
+   "orders": {
+    "drop-first": 0.5026666666666667,
+    "mix-first": 0.49733333333333335
+   }
+  },
+  "val_long": {
+   "label_mean": 0.24602697789669037,
+   "zero_frac": 0.0,
+   "modes": {
+    "busy": 0.2985,
+    "clean": 0.3983333333333333,
+    "mixture": 0.30316666666666664
+   },
+   "orders": {
+    "drop-first": 0.5098333333333334,
+    "mix-first": 0.49016666666666664
+   }
+  },
+  "oracle": {
+   "label_mean": 0.187188521027565,
+   "zero_frac": 0.235,
+   "modes": {
+    "busy": 0.2925,
+    "clean": 0.411,
+    "mixture": 0.2965
+   },
+   "orders": {
+    "drop-first": 0.5075,
+    "mix-first": 0.4925
+   }
+  }
+ },
+ "generation": "fresh stream, seed 20352122",
+ "generation_seed": 20352122
+}

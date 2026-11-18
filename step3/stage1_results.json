@@ -1,0 +1,24 @@
+{
+ "s1": {
+  "null": {
+   "mean": 0.574680689986491,
+   "median": 0.6285361747158558,
+   "passed": false
+  },
+  "verdict": "killed",
+  "kill_reasons": [
+   "null check failed"
+  ]
+ },
+ "s2": {
+  "null": {
+   "mean": 0.09994635039796741,
+   "median": 0.0919954021582352,
+   "passed": false
+  },
+  "verdict": "killed",
+  "kill_reasons": [
+   "null check failed"
+  ]
+ }
+}

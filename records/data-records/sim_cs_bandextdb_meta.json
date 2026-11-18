@@ -1,0 +1,97 @@
+{
+ "tag": "bandextdb",
+ "mode": "screen",
+ "seed": 20261116,
+ "pools": {
+  "train": 65838,
+  "trainA": 32919,
+  "trainB": 32919,
+  "val_random": 5724,
+  "val_site": 3459,
+  "val_period": 12632,
+  "val_long": 5724,
+  "oracle": 5724
+ },
+ "sets": {
+  "trainA": {
+   "label_mean": 0.18300580978393555,
+   "zero_frac": 0.246625,
+   "modes": {
+    "busy": 0.2998,
+    "clean": 0.3986,
+    "mixture": 0.3016
+   },
+   "orders": {
+    "drop-first": 0.501025,
+    "mix-first": 0.498975
+   }
+  },
+  "val_random": {
+   "label_mean": 0.18412475287914276,
+   "zero_frac": 0.253,
+   "modes": {
+    "busy": 0.29233333333333333,
+    "clean": 0.3958333333333333,
+    "mixture": 0.31183333333333335
+   },
+   "orders": {
+    "drop-first": 0.49966666666666665,
+    "mix-first": 0.5003333333333333
+   }
+  },
+  "val_site": {
+   "label_mean": 0.17906896770000458,
+   "zero_frac": 0.244,
+   "modes": {
+    "busy": 0.30366666666666664,
+    "clean": 0.39766666666666667,
+    "mixture": 0.2986666666666667
+   },
+   "orders": {
+    "drop-first": 0.49933333333333335,
+    "mix-first": 0.5006666666666667
+   }
+  },
+  "val_period": {
+   "label_mean": 0.1811857521533966,
+   "zero_frac": 0.254,
+   "modes": {
+    "busy": 0.2975,
+    "clean": 0.4043333333333333,
+    "mixture": 0.2981666666666667
+   },
+   "orders": {
+    "drop-first": 0.5033333333333333,
+    "mix-first": 0.49666666666666665
+   }
+  },
+  "val_long": {
+   "label_mean": 0.24629122018814087,
+   "zero_frac": 0.0,
+   "modes": {
+    "busy": 0.2936666666666667,
+    "clean": 0.40066666666666667,
+    "mixture": 0.30566666666666664
+   },
+   "orders": {
+    "drop-first": 0.49483333333333335,
+    "mix-first": 0.5051666666666667
+   }
+  },
+  "oracle": {
+   "label_mean": 0.18459023535251617,
+   "zero_frac": 0.2605,
+   "modes": {
+    "busy": 0.2855,
+    "clean": 0.3985,
+    "mixture": 0.316
+   },
+   "orders": {
+    "drop-first": 0.509,
+    "mix-first": 0.491
+   }
+  }
+ },
+ "generation": "fresh stream, seed 20352126",
+ "generation_seed": 20352126
+}

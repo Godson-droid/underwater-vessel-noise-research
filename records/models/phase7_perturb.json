@@ -1,0 +1,146 @@
+{
+ "test": "phase7_perturbation_predeclared",
+ "unperturbed": {
+  "baseline_mean": 0.20605982570944228,
+  "phase6_mean": 0.17183553006155905,
+  "disagreement_rmse": 0.06901275086959575
+ },
+ "perturbations": {
+  "G+": {
+   "baseline": {
+    "mean_pred": 0.20699872920400184,
+    "mean_signed_delta": 0.0009389034945595324,
+    "mean_abs_delta": 0.0012951756599053864,
+    "p95_abs_delta": 0.005318931345648063,
+    "frac_abs_gt_0p05": 0.0
+   },
+   "phase6": {
+    "mean_pred": 0.17232036773220827,
+    "mean_signed_delta": 0.0004848376706491936,
+    "mean_abs_delta": 0.0007517325464029942,
+    "p95_abs_delta": 0.00286560823873176,
+    "frac_abs_gt_0p05": 0.0
+   },
+   "disagreement_rmse": 0.06915062666722013
+  },
+  "G-": {
+   "baseline": {
+    "mean_pred": 0.20504206743342238,
+    "mean_signed_delta": -0.0010177582760199488,
+    "mean_abs_delta": 0.0013372994315372134,
+    "p95_abs_delta": 0.005704522045246131,
+    "frac_abs_gt_0p05": 0.0
+   },
+   "phase6": {
+    "mean_pred": 0.17139766035807444,
+    "mean_signed_delta": -0.0004378697034846489,
+    "mean_abs_delta": 0.0006920924637353982,
+    "p95_abs_delta": 0.0030762662294173968,
+    "frac_abs_gt_0p05": 0.0
+   },
+   "disagreement_rmse": 0.06863780053741397
+  },
+  "T+": {
+   "baseline": {
+    "mean_pred": 0.2112287442983435,
+    "mean_signed_delta": 0.005168918588901203,
+    "mean_abs_delta": 0.012278107933253214,
+    "p95_abs_delta": 0.0379093063318429,
+    "frac_abs_gt_0p05": 0.019333333333333334
+   },
+   "phase6": {
+    "mean_pred": 0.175837298670924,
+    "mean_signed_delta": 0.0040017686093649545,
+    "mean_abs_delta": 0.009263871451770194,
+    "p95_abs_delta": 0.029748919939917188,
+    "frac_abs_gt_0p05": 0.007333333333333333
+   },
+   "disagreement_rmse": 0.07155085624034384
+  },
+  "T-": {
+   "baseline": {
+    "mean_pred": 0.2005382459017092,
+    "mean_signed_delta": -0.005521579807733123,
+    "mean_abs_delta": 0.012555914786539692,
+    "p95_abs_delta": 0.038188874039682366,
+    "frac_abs_gt_0p05": 0.021333333333333333
+   },
+   "phase6": {
+    "mean_pred": 0.1676684541165365,
+    "mean_signed_delta": -0.004167075945022578,
+    "mean_abs_delta": 0.008952083106867256,
+    "p95_abs_delta": 0.027597963400798547,
+    "frac_abs_gt_0p05": 0.004
+   },
+   "disagreement_rmse": 0.0674624079755207
+  },
+  "B+": {
+   "baseline": {
+    "mean_pred": 0.2184909473729601,
+    "mean_signed_delta": 0.012431121663517791,
+    "mean_abs_delta": 0.015593819939197909,
+    "p95_abs_delta": 0.05542661542267001,
+    "frac_abs_gt_0p05": 0.068
+   },
+   "phase6": {
+    "mean_pred": 0.18617024241244987,
+    "mean_signed_delta": 0.014334712350890792,
+    "mean_abs_delta": 0.016656501352659992,
+    "p95_abs_delta": 0.06113092984014016,
+    "frac_abs_gt_0p05": 0.07533333333333334
+   },
+   "disagreement_rmse": 0.06881676481017006
+  },
+  "B-": {
+   "baseline": {
+    "mean_pred": 0.19604184997708263,
+    "mean_signed_delta": -0.010017975732359727,
+    "mean_abs_delta": 0.013687667676834029,
+    "p95_abs_delta": 0.05056458058868547,
+    "frac_abs_gt_0p05": 0.052
+   },
+   "phase6": {
+    "mean_pred": 0.16158155259934784,
+    "mean_signed_delta": -0.010253977462211246,
+    "mean_abs_delta": 0.013209493778248517,
+    "p95_abs_delta": 0.04996942021485078,
+    "frac_abs_gt_0p05": 0.05
+   },
+   "disagreement_rmse": 0.06920228345422236
+  },
+  "M8": {
+   "baseline": {
+    "mean_pred": 0.20360338721716076,
+    "mean_signed_delta": -0.002456438492281565,
+    "mean_abs_delta": 0.019126327098448533,
+    "p95_abs_delta": 0.06092320230266331,
+    "frac_abs_gt_0p05": 0.058666666666666666
+   },
+   "phase6": {
+    "mean_pred": 0.1665251797313959,
+    "mean_signed_delta": -0.005310350330163161,
+    "mean_abs_delta": 0.015428600563051932,
+    "p95_abs_delta": 0.05388856893686987,
+    "frac_abs_gt_0p05": 0.056
+   },
+   "disagreement_rmse": 0.07238901527193374
+  },
+  "RV": {
+   "baseline": {
+    "mean_pred": 0.20346801056892846,
+    "mean_signed_delta": -0.002591815140513823,
+    "mean_abs_delta": 0.020061173739058396,
+    "p95_abs_delta": 0.056458022918943584,
+    "frac_abs_gt_0p05": 0.07
+   },
+   "phase6": {
+    "mean_pred": 0.1710109835648653,
+    "mean_signed_delta": -0.0008245464966937612,
+    "mean_abs_delta": 0.01603395754325511,
+    "p95_abs_delta": 0.04471458387413335,
+    "frac_abs_gt_0p05": 0.03266666666666666
+   },
+   "disagreement_rmse": 0.06759792540291436
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "n": 18512,
+ "chance_majority": 0.162057044079516,
+ "site_counts": {
+  "1 Richards Bay": 3000,
+  "4 Bird Island": 3000,
+  "5 St Croix Island": 3000,
+  "7 St_Francis": 3000,
+  "13 Saldhana Bay": 3000,
+  "2 Durban": 2973,
+  "9 Fish Hoek": 296,
+  "10 Sea Point": 243
+ },
+ "acc_all": 0.9813664596273292,
+ "acc_band0_only": 0.5230893869835269,
+ "acc_band0_level2": 0.4161490683229814,
+ "acc_no_band0": 0.9767755873615988,
+ "baseline_importance": {
+  "band0_gain_share": 0.3202542525984421,
+  "top15": {
+   "band_share_0": 0.2509456500715929,
+   "band_share_1": 0.15312365375031112,
+   "band_share_24": 0.11747396547090973,
+   "band_range_db_24": 0.11369280883397044,
+   "band_std_db_0": 0.04846017271196403,
+   "band_std_db_24": 0.041175623515837395,
+   "band_share_3": 0.04031013622690711,
+   "band_share_9": 0.014139423520832549,
+   "band_share_23": 0.008915316863594912,
+   "band_share_8": 0.007666729439858469,
+   "band_share_14": 0.007132363251027761,
+   "band_share_7": 0.006977037438607055,
+   "max_minute_share": 0.0066116312636812676,
+   "minute_share_0": 0.00634242003451983,
+   "band_share_6": 0.005453228063857739
+  }
+ }
+}

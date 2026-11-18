@@ -1,0 +1,48 @@
+{
+ "tag": "bgchan",
+ "mode": "screen",
+ "seed": 20261116,
+ "generation_seed": 20353116,
+ "pools": {
+  "train": 65838,
+  "trainA": 32919,
+  "trainB": 32919,
+  "val_random": 5724,
+  "val_site": 3459,
+  "val_period": 12632,
+  "val_long": 5724,
+  "oracle": 5724
+ },
+ "sets": {
+  "trainA": {
+   "label_mean": 0.18304520845413208,
+   "zero_frac": 0.2489,
+   "chan_mag_mean": 11.212087694332899
+  },
+  "val_random": {
+   "label_mean": 0.1767146736383438,
+   "zero_frac": 0.254,
+   "chan_mag_mean": 11.265567501862005
+  },
+  "val_site": {
+   "label_mean": 0.17485643923282623,
+   "zero_frac": 0.25483333333333336,
+   "chan_mag_mean": 11.250667820614062
+  },
+  "val_period": {
+   "label_mean": 0.18963523209095,
+   "zero_frac": 0.25433333333333336,
+   "chan_mag_mean": 11.096007390697354
+  },
+  "val_long": {
+   "label_mean": 0.24155350029468536,
+   "zero_frac": 0.0,
+   "chan_mag_mean": 11.20532442423028
+  },
+  "oracle": {
+   "label_mean": 0.17070169746875763,
+   "zero_frac": 0.2605,
+   "chan_mag_mean": 11.058079581572892
+  }
+ }
+}

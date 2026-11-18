@@ -1,0 +1,16 @@
+{
+ "set": "main",
+ "n": 2000,
+ "label_mean": 0.3345561106558415,
+ "label_zero_frac": 0.264,
+ "kinds": {
+  "ambient": 418,
+  "none": 527,
+  "vessel": 1055
+ },
+ "bg_roles": {
+  "eval_period_holdout": 293,
+  "eval_seen": 1192,
+  "eval_unseen": 515
+ }
+}

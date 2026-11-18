@@ -1,0 +1,24 @@
+SANITISED COPY - Stage 2 working copy (18 November 2026).
+Original: step3/stage1.log, preserved unchanged in the research tree.
+This log is the incident record for the Step 3 Stage 1 first (buggy) run
+described in RESULTS_step3_stage01.md section 3.3; it is retained only as
+this sanitised, captioned copy. The only change: the machine-specific
+absolute path prefix of the original research machine (4 occurrences)
+has been replaced throughout by <PROJECT_ROOT>. No other content differs.
+----------------------------------------------------------------------
+[s1 on null] 250/550
+[s1 on null] 500/550
+[s1] null mean 0.0132 median 0.0000 -> PASS
+Traceback (most recent call last):
+  File "<PROJECT_ROOT>/step3/run_stage1.py", line 115, in <module>
+    main()
+  File "<PROJECT_ROOT>/step3/run_stage1.py", line 46, in main
+    preds = estimators.predict_set("null", which)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<PROJECT_ROOT>/step3/estimators.py", line 156, in predict_set
+    preds[i] = fn(X["X"][i])
+               ^^^^^^^^^^^^^
+  File "<PROJECT_ROOT>/step3/estimators.py", line 128, in s2_predict
+    beta, W, shapes = _fit_bg_minutes(np.maximum(T - A[:, None] * p[None, :], 1e-30),
+                                                 ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (375,) (375,25) 

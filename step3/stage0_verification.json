@@ -1,0 +1,36 @@
+{
+ "disjointness": {
+  "shared_hulls": 0,
+  "shared_dates": 0,
+  "family_clips": 212,
+  "i1_clips": 211,
+  "roles_at_4 Bird Island": [
+   "eval_unseen",
+   "null"
+  ],
+  "roles_at_9 Fish Hoek": [
+   "eval_unseen",
+   "null"
+  ]
+ },
+ "hand_check": {
+  "n_sample": 12,
+  "worst_label_abs_diff": 2.7115322209780857e-09,
+  "worst_summary_abs_diff_db": 6.103515630684342e-06
+ },
+ "oracle": {
+  "oracle_score_main": 0.9988564702236931,
+  "oracle_mean": 0.33445778489112854,
+  "label_mean": 0.3345561106558415
+ },
+ "baseline_frozen_phase5": {
+  "main_overall": 0.885444221299883,
+  "main_unseen_site": 0.8783181594149898,
+  "main_seen": 0.8908631367824187,
+  "main_period_holdout": 0.8771362530536075,
+  "main_unseen_zero_band_bias": 0.05787199555746724,
+  "main_pred_mean": 0.30082253027766415,
+  "null_pred_mean": 0.047117490683128836,
+  "null_pred_median": 0.03395625832548879
+ }
+}

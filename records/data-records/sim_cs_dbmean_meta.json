@@ -1,0 +1,97 @@
+{
+ "tag": "dbmean",
+ "mode": "screen",
+ "seed": 20261116,
+ "pools": {
+  "train": 65838,
+  "trainA": 32919,
+  "trainB": 32919,
+  "val_random": 5724,
+  "val_site": 3459,
+  "val_period": 12632,
+  "val_long": 5724,
+  "oracle": 5724
+ },
+ "sets": {
+  "trainA": {
+   "label_mean": 0.18158948421478271,
+   "zero_frac": 0.248725,
+   "modes": {
+    "busy": 0.296875,
+    "clean": 0.40595,
+    "mixture": 0.297175
+   },
+   "orders": {
+    "drop-first": 0.4949,
+    "mix-first": 0.5051
+   }
+  },
+  "val_random": {
+   "label_mean": 0.1816936880350113,
+   "zero_frac": 0.25483333333333336,
+   "modes": {
+    "busy": 0.2961666666666667,
+    "clean": 0.3985,
+    "mixture": 0.30533333333333335
+   },
+   "orders": {
+    "drop-first": 0.5088333333333334,
+    "mix-first": 0.49116666666666664
+   }
+  },
+  "val_site": {
+   "label_mean": 0.1770847737789154,
+   "zero_frac": 0.253,
+   "modes": {
+    "busy": 0.30216666666666664,
+    "clean": 0.4003333333333333,
+    "mixture": 0.2975
+   },
+   "orders": {
+    "drop-first": 0.499,
+    "mix-first": 0.501
+   }
+  },
+  "val_period": {
+   "label_mean": 0.1866377294063568,
+   "zero_frac": 0.25616666666666665,
+   "modes": {
+    "busy": 0.2981666666666667,
+    "clean": 0.4018333333333333,
+    "mixture": 0.3
+   },
+   "orders": {
+    "drop-first": 0.49366666666666664,
+    "mix-first": 0.5063333333333333
+   }
+  },
+  "val_long": {
+   "label_mean": 0.24157987534999847,
+   "zero_frac": 0.0,
+   "modes": {
+    "busy": 0.3015,
+    "clean": 0.4056666666666667,
+    "mixture": 0.29283333333333333
+   },
+   "orders": {
+    "drop-first": 0.5005,
+    "mix-first": 0.4995
+   }
+  },
+  "oracle": {
+   "label_mean": 0.19212515652179718,
+   "zero_frac": 0.245,
+   "modes": {
+    "busy": 0.3075,
+    "clean": 0.4015,
+    "mixture": 0.291
+   },
+   "orders": {
+    "drop-first": 0.5115,
+    "mix-first": 0.4885
+   }
+  }
+ },
+ "generation": "fresh stream, seed 20352123",
+ "generation_seed": 20352123
+}

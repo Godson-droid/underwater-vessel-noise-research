@@ -1,0 +1,29 @@
+# Zindi Underwater Vessel Noise research programme — pinned dependencies.
+#
+# Interpreter: Python 3.12.3 (recorded in ARCHIVE_MANIFEST.md sections 4
+# and 6; an interpreter version is not a pip pin, so it is stated here as
+# a requirement on the environment rather than a line below).
+#
+# Every version below is evidenced in ARCHIVE_MANIFEST.md (sections 4
+# and 6) and in the version stamps inside the model record JSON files.
+# The package set was checked against the actual imports of the proposed
+# release scripts under code/ and step3/ on 2026-11-18: numpy, pandas,
+# scipy, scikit-learn, lightgbm, pyarrow, soundfile and xgboost are the
+# only third-party imports those scripts make. No unverified package is
+# pinned in this file.
+numpy==2.5.5
+pandas==3.1.1
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+pyarrow==26.0.1
+soundfile==0.14.0
+# XGBoost is imported by exactly one script (code/phase6_ws4_models.py,
+# the Phase 6 model-comparison workstream). Its version is evidenced in
+# ARCHIVE_MANIFEST.md section 6 ("XGBoost 3.4.1 appears in Phase 6
+# workstream 4 only"), so it is pinned here on that evidence.
+xgboost==3.4.1
+#
+# Caveat: this file records the environment the research was actually
+# run in. It does not guarantee that the entire dependency combination
+# installs successfully on every operating system or platform.

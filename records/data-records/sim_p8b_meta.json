@@ -1,0 +1,166 @@
+{
+ "tag": "p8b_graded",
+ "p_transplant": 0.6,
+ "strength_scale": [
+  0,
+  0.25,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "note": "Paired generation: identical seeds, pools, draw sequence and target family as Phase 7 at every strength; only the applied shape mixture differs.",
+ "corpora": {
+  "s100_trainA": {
+   "level_pct": 100,
+   "set": "trainA",
+   "n": 40000,
+   "generation_seed": 20358118,
+   "n_draw": 40000,
+   "n_would_transplant": 21004,
+   "n_applied": 21004,
+   "target_counts": {
+    "1 Richards Bay": 1044,
+    "10 Sea Point": 2998,
+    "13 Saldhana Bay": 2731,
+    "2 Durban": 2866,
+    "4 Bird Island": 2916,
+    "5 St Croix Island": 2478,
+    "7 St_Francis": 2889,
+    "9 Fish Hoek": 3082
+   },
+   "label_mean": 0.18145598471164703,
+   "zero_frac": 0.251975,
+   "verify_vs_p7char": {
+    "rows_identical_X": 40000,
+    "rows_differing_X": 0,
+    "y_max_abs_diff": 0.0
+   }
+  },
+  "s0_trainA": {
+   "level_pct": 0,
+   "set": "trainA",
+   "n": 40000,
+   "generation_seed": 20358118,
+   "n_draw": 40000,
+   "n_would_transplant": 21004,
+   "n_applied": 0,
+   "target_counts": {
+    "1 Richards Bay": 0,
+    "10 Sea Point": 0,
+    "13 Saldhana Bay": 0,
+    "2 Durban": 0,
+    "4 Bird Island": 0,
+    "5 St Croix Island": 0,
+    "7 St_Francis": 0,
+    "9 Fish Hoek": 0
+   },
+   "label_mean": 0.18195317685604095,
+   "zero_frac": 0.251975
+  },
+  "s25_trainA": {
+   "level_pct": 25,
+   "set": "trainA",
+   "n": 40000,
+   "generation_seed": 20358118,
+   "n_draw": 40000,
+   "n_would_transplant": 21004,
+   "n_applied": 21004,
+   "target_counts": {
+    "1 Richards Bay": 1044,
+    "10 Sea Point": 2998,
+    "13 Saldhana Bay": 2731,
+    "2 Durban": 2866,
+    "4 Bird Island": 2916,
+    "5 St Croix Island": 2478,
+    "7 St_Francis": 2889,
+    "9 Fish Hoek": 3082
+   },
+   "label_mean": 0.18185190856456757,
+   "zero_frac": 0.251975
+  },
+  "s50_trainA": {
+   "level_pct": 50,
+   "set": "trainA",
+   "n": 40000,
+   "generation_seed": 20358118,
+   "n_draw": 40000,
+   "n_would_transplant": 21004,
+   "n_applied": 21004,
+   "target_counts": {
+    "1 Richards Bay": 1044,
+    "10 Sea Point": 2998,
+    "13 Saldhana Bay": 2731,
+    "2 Durban": 2866,
+    "4 Bird Island": 2916,
+    "5 St Croix Island": 2478,
+    "7 St_Francis": 2889,
+    "9 Fish Hoek": 3082
+   },
+   "label_mean": 0.18174324929714203,
+   "zero_frac": 0.251975
+  },
+  "s75_trainA": {
+   "level_pct": 75,
+   "set": "trainA",
+   "n": 40000,
+   "generation_seed": 20358118,
+   "n_draw": 40000,
+   "n_would_transplant": 21004,
+   "n_applied": 21004,
+   "target_counts": {
+    "1 Richards Bay": 1044,
+    "10 Sea Point": 2998,
+    "13 Saldhana Bay": 2731,
+    "2 Durban": 2866,
+    "4 Bird Island": 2916,
+    "5 St Croix Island": 2478,
+    "7 St_Francis": 2889,
+    "9 Fish Hoek": 3082
+   },
+   "label_mean": 0.18161801993846893,
+   "zero_frac": 0.251975
+  },
+  "s25_train": {
+   "level_pct": 25,
+   "set": "train",
+   "n": 80000,
+   "generation_seed": 20358119,
+   "n_draw": 80000,
+   "n_would_transplant": 42433,
+   "n_applied": 42433,
+   "target_counts": {
+    "1 Richards Bay": 2179,
+    "10 Sea Point": 5998,
+    "13 Saldhana Bay": 5471,
+    "2 Durban": 5708,
+    "4 Bird Island": 6136,
+    "5 St Croix Island": 5080,
+    "7 St_Francis": 5861,
+    "9 Fish Hoek": 6000
+   },
+   "label_mean": 0.18136124312877655,
+   "zero_frac": 0.249875
+  },
+  "s25_trainB": {
+   "level_pct": 25,
+   "set": "trainB",
+   "n": 40000,
+   "generation_seed": 20358120,
+   "n_draw": 40000,
+   "n_would_transplant": 20807,
+   "n_applied": 20807,
+   "target_counts": {
+    "1 Richards Bay": 1060,
+    "10 Sea Point": 2976,
+    "13 Saldhana Bay": 2668,
+    "2 Durban": 2875,
+    "4 Bird Island": 2957,
+    "5 St Croix Island": 2469,
+    "7 St_Francis": 2790,
+    "9 Fish Hoek": 3012
+   },
+   "label_mean": 0.1828986257314682,
+   "zero_frac": 0.2539
+  }
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "kind": "moresame",
+ "generation_seed": 20381116,
+ "n": 80000,
+ "label_mean": 0.1818300038576126,
+ "zero_frac": 0.249875
+}
