@@ -3,6 +3,7 @@
 Repository: Underwater Vessel Noise Research
 Applies to: the published release, initial commit 0dd1f9be9f12c840fa8be9c77fad9974bb1c891e
 Errata date: 18 November 2026
+Correction, 18 November 2026: Item 3 was narrowed to the historical clipped starter conversion, and Item 10 was added, following a fresh review of the published repository. No other item was changed.
 
 ## Purpose
 
@@ -20,7 +21,7 @@ DATA_SOURCES.md states that the clean reimplementation of the starter conversion
 
 ## Item 3. The copied starter function is not in this repository
 
-DATA_SOURCES.md documents that the historical pool building script contained a verbatim copy of the competition starter notebook conversion function, whose source licence is not established. That script, code/build_passage_pool.py, was excluded from this release by owner decision for that reason, and the copied function appears nowhere in this repository. The only conversion implementation published here is the clean reimplementation described in Item 2. The equivalence test loads the historical function from the private research record by source extraction, which is why the test cannot be rerun from the contents of this repository alone. That limitation is recorded in RELEASE_NOTES.md. Consequently, a reader can inspect the clean implementation and the recorded equivalence results, but cannot independently rerun the historical versus clean comparison using this repository alone.
+DATA_SOURCES.md documents that the historical pool building script contained a verbatim copy of the competition starter notebook conversion function, whose source licence is not established. That script, code/build_passage_pool.py, was excluded from this release by owner decision for that reason, and the copied function appears nowhere in this repository. The only published reimplementation of the historical clipped starter conversion, minute_band_power, is the clean reimplementation described in Item 2. Other conversion implementations used in the Phase 5 work remain in the code directory and implement separate conversion approaches, including bandext: code/convert_variants.py, code/convert_variants2.py and code/convert_bandextdb.py. The equivalence test loads the historical function from the private research record by source extraction, which is why the test cannot be rerun from the contents of this repository alone. That limitation is recorded in RELEASE_NOTES.md. Consequently, a reader can inspect the clean implementation and the recorded equivalence results, but cannot independently rerun the historical versus clean comparison using this repository alone.
 
 ## Item 4. The reproduction roadmap reference
 
@@ -45,3 +46,7 @@ This errata corrects documentation status only. The release remains what its own
 ## Item 9. Competition code sharing rule
 
 The general competition rules state that code shared outside a team must be made available to all challenge participants through the platform discussion boards. Whether an independent public research publication of this kind falls within that rule is not clear on the published wording, and this errata does not resolve the question. It is recorded here so that readers are aware the question exists and remains open.
+
+## Item 10. Working paths named in the clean conversion docstring
+
+The docstring of provenance/clean_conversion.py refers to two locations in the private working tree where the research was carried out. In this repository, the document named there as release_docs_stage1/DATA_SOURCES.md is DATA_SOURCES.md at the repository root, and the test named there as stage2_work/equivalence_test.py is provenance/equivalence_test.py. The file itself is preserved unedited as part of the research record; this item carries the mapping for readers.
